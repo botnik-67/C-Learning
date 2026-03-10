@@ -19,7 +19,7 @@ void sort_array(int arr[], int size){
             }
         }
     }
-    printf("Отсортированный список готов: ");
+    printf("Отсортированный список: ");
     for(int k = 0; k < size; k ++){
         printf("%d ", arr[k]);
     }
